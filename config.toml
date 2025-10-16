@@ -1,0 +1,52 @@
+base_url = "https://choique.org"
+title = "Choique"
+description = ""
+
+compile_sass = true
+generate_feeds = true
+feed_filenames = ["rss.xml", "atom.xml"]
+minify_html = true
+build_search_index = true
+taxonomies = [{ name = "tags", feed = true }]
+
+[markdown]
+highlight_code = true
+highlight_theme = "visual-studio-dark"
+# More syntax highlighting themes: https://www.getzola.org/documentation/getting-started/configuration/#syntax-highlighting
+smart_punctuation = true
+
+[extra]
+author = "Choique"
+email = "contact@choique.org"
+timeformat = "%B %e, %Y"                   # e.g. June 14, 2021
+
+[[extra.menu]]
+name = "Home"
+url = "/"
+
+[[extra.menu]]
+name = "About"
+url = "about"
+
+[[extra.menu]]
+name = "Projects"
+url = "projects"
+
+[[extra.menu]]
+name = "Contact"
+url = "contact"
+
+[extra.footer]
+info = 'Powered by <a href="https://www.getzola.org" target="_blank">Zola</a>.'
+
+
+[languages.es]
+generate_feeds = true # there will be a feed for Spanish content
+build_search_index = true
+taxonomies = [
+    {name = "autor"},
+    {name = "tags"},
+]
+
+[languages.es.translations]
+summary = "Blog"
