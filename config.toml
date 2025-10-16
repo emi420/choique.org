@@ -1,6 +1,7 @@
 base_url = "https://choique.org"
 title = "Choique"
 description = ""
+theme="mabuya"
 
 compile_sass = true
 generate_feeds = true
