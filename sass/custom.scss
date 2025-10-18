@@ -1,0 +1,57 @@
+.nav-container {
+  font-size: 1.2rem;
+  text-transform: lowercase;
+}
+
+header li {
+    opacity: 1;
+}
+header li a  {
+    color: #000;
+}
+
+header .logo {
+    background: url(assets/choique-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 125px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.home-picture {
+    display: flex;
+    justify-content: center;
+}
+
+.home-text {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--grey)
+}
+
+.home-text h3 {
+    text-align: center;
+    width: 830px;
+    display: block;
+    font-weight: normal;
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
+}
+
+.home-text h3 strong {
+    background-color: yellow;
+}
+
+/* Dark Mode */
+
+[saved-theme="dark"] .logo {
+    background-image: url(assets/choique-logo-light.png);
+}
+
+[saved-theme="dark"] .home-text h3 strong {
+    color: var(--background-color)
+}

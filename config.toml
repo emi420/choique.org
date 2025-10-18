@@ -40,7 +40,6 @@ url = "contact"
 [extra.footer]
 info = 'Powered by <a href="https://www.getzola.org" target="_blank">Zola</a>.'
 
-
 [languages.es]
 generate_feeds = true # there will be a feed for Spanish content
 build_search_index = true

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<img class="home-picture" src="{{ get_url(path='images/home-picture.jpeg') | safe }}">
+<div class="home-text">
+<h3>We are a working group that promotes the adoption of <strong>free technologies</strong> for the production,
+    analysis, and visualization of geospatial data to address issues related to <strong>climate
+    action</strong> and sustainable <strong>local development</strong>. We prioritize strategies that provide
+    sustained support over time and maximize impact.</h3>
+</div>
+{% include "partials/paginator.html" %}
+{% endblock content %}
