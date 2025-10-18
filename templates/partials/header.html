@@ -11,9 +11,15 @@
         {% for menu in config.extra.menu %}
         <li><a href="{{ get_url(path=menu.url) | safe }}">{{ menu.name }}</a></li>
         {% endfor %} {% else %}
-        <li><a href="{{ config.base_url | safe }}">Archive</a></li>
+        <li><a href="{{ config.base_url | safe }}">Archivo</a></li>
         <li><a href="{{ get_url(path='tags') | safe }}">Tags</a></li>
         {% endif %}
+      </ul>
+    </nav>
+    <nav>
+      <ul>
+        <li><a href="/">ES</a></li>
+        <li><a href="/en">EN</a></li>
       </ul>
     </nav>
   </section>
