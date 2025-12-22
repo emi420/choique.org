@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title></title>
+    <link rel="self" type="application/atom+xml" href="https://choique.org/en/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://choique.org"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-09-23T00:00:00+00:00</updated>
+    <id>https://choique.org/en/atom.xml</id>
+    <entry xml:lang="en">
+        <title>The diversity of OpenStreetMap tools and how they help create a commons</title>
+        <published>2025-09-23T00:00:00+00:00</published>
+        <updated>2025-09-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://choique.org/en/long-article/"/>
+        <id>https://choique.org/en/long-article/</id>
+        
+        <content type="html" xml:base="https://choique.org/en/long-article/">&lt;p&gt;Last weekend was the 21st birthday of &lt;em&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.openstreetmap.org&quot;&gt;OpenStreetMap&lt;&#x2F;a&gt;&lt;&#x2F;em&gt; (OSM), and with some friends we celebrated the occasion with a little mapping party.
+Our plan was to combine flying drones to &lt;a href=&quot;https:&#x2F;&#x2F;dronetm.org&#x2F;&quot;&gt;collect aerial imagery&lt;&#x2F;a&gt; and &lt;a href=&quot;&#x2F;panoramax-bot&#x2F;&quot;&gt;collecting street-level imagery&lt;&#x2F;a&gt; with more traditional field mapping.
+Due to high winds, we mostly ended up with street-level imagery and doing field mapping though, using a variety of tools.&lt;&#x2F;p&gt;
+&lt;p&gt;On the way home, I was reflecting on how amazing this richness and diversity of tools for contributing to OSM is.
+Not just in terms of methods (like collecting imagery, sharing GPS tracks, &lt;em&gt;arm-chair mapping&lt;&#x2F;em&gt; or surveying).
+But even just within each of these realms:
+Yesterday we surveyed using &lt;a href=&quot;https:&#x2F;&#x2F;every-door.app&#x2F;&quot;&gt;Every Door&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;streetcomplete.app&#x2F;&quot;&gt;StreetComplete&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;mapcomplete.org&#x2F;&quot;&gt;MapComplete&lt;&#x2F;a&gt;, and &lt;a href=&quot;https:&#x2F;&#x2F;www.hotosm.org&#x2F;tech-suite&#x2F;chatmap&#x2F;&quot;&gt;ChatMap&lt;&#x2F;a&gt;, while recording GPS tracks with &lt;a href=&quot;https:&#x2F;&#x2F;www.comaps.app&#x2F;&quot;&gt;CoMaps&lt;&#x2F;a&gt;.
+Before then sitting down with our computers, to make larger edits with &lt;a href=&quot;https:&#x2F;&#x2F;wiki.openstreetmap.org&#x2F;wiki&#x2F;ID&quot;&gt;iD&lt;&#x2F;a&gt; and &lt;a href=&quot;https:&#x2F;&#x2F;josm.openstreetmap.de&#x2F;&quot;&gt;JOSM&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;This wide spectrum of used tools is not (just&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;) because each of us had different preferences for tools.
+But also because different tools fill different niches.
+Even individually, I end up using virtually all of those mentioned tools every single day that I contribute to OSM.&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#2&quot;&gt;2&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;
+Why?
+Because each of them excels at particular and different use cases.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Every Door&lt;&#x2F;em&gt; is great for surveying when it comes to adding more complex points to the map, things like amenities or shops.&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#3&quot;&gt;3&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;
+For these objects one realistically wants to add a wide range of information in one go (opening hours, websites, phone numbers, …).
+&lt;em&gt;StreetComplete&lt;&#x2F;em&gt; is perfect to quickly add missing data to existing objects, at least in part because it tries to gamify OSM contributions.
+By highlighting different types of “missing” information around one’s current location, it’s easy to find things that are both simple to verify as simple to add by the click of a button&#x2F;answering a multiple-choice question (e.g. adding in the type of road surface).&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#4&quot;&gt;4&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;
+&lt;em&gt;MapComplete&lt;&#x2F;em&gt; is great for adding objects to which one might want to add photos, for example art works or &lt;a href=&quot;&#x2F;wayside-shrines-mapcomplete&#x2F;&quot;&gt;wayside shrines&lt;&#x2F;a&gt;, as long as the objects are already supported.&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#5&quot;&gt;5&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;
+And CoMaps works great if find yourself without any reception (which would be needed to download the live map) but you found a place where you want to make an edit, as you can look at the offline map and still queue up an edit&#x2F;note.
+Similarly, less surveying-based editors like iD and JOSM have their own niches they work well for.&lt;&#x2F;p&gt;
+&lt;p&gt;The answer to &lt;em&gt;“what is the best editor”&lt;&#x2F;em&gt; thus comes back to the common &lt;em&gt;“it depends on your use case”&lt;&#x2F;em&gt;.
+While at times I’ve seen people complain about the &lt;em&gt;&lt;strong&gt;complexity&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; that comes with a large number of tools, I’d argue that &lt;strong&gt;this big diversity in tools is in reality a big asset to enabling contributions to OSM&lt;&#x2F;strong&gt;.
+Not only does it allow people to find a tool that works best for them and their contributing-style, it also facilitates having &lt;em&gt;the right tool for the job&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;If you think of &lt;a href=&quot;https:&#x2F;&#x2F;theconversation.com&#x2F;elon-musk-aims-to-turn-twitter-into-an-everything-app-a-social-media-and-marketing-scholar-explains-what-that-is-and-why-its-not-so-easy-to-do-211023&quot;&gt;&lt;em&gt;everything apps&lt;&#x2F;em&gt; or &lt;em&gt;super apps&lt;&#x2F;em&gt; that try combining a lot of software features&lt;&#x2F;a&gt;, their alleged appeal is to have all the functionality you could ever need in one place, but the reality is more often that those tools become bloated, hard to navigate, and calcify as any changes to the structure are infinitely harder given the size and complexity.
+I often compare this to the &lt;em&gt;Swiss Army Knife&lt;&#x2F;em&gt;:
+In a pinch, its little screwdrivers, saws, etc. will do their job to fix stuff around the house.
+But for any larger building project you definitely would like a toolbox with some real screwdrivers and saws.&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#6&quot;&gt;6&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;
+This is because these individual tools can focus efforts on supporting and implementing comparatively narrow use cases, without having to make extra trade-offs.&lt;&#x2F;p&gt;
+&lt;p&gt;Of course, the idea of having tools that “do one thing well” isn’t new.
+It’s part of the &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Unix_philosophy&quot;&gt;Unix philosophy&lt;&#x2F;a&gt;, alongside the idea that all of these tools should work together with each other.
+Similarly, how different types of contributions require different tooling reminds the biologist in me of &lt;a href=&quot;https:&#x2F;&#x2F;www.phys.ufl.edu&#x2F;courses&#x2F;phy3221&#x2F;spring10&#x2F;HaldaneRightSize.pdf&quot;&gt;JBS Haldane’s &lt;em&gt;On Being the Right Size&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;, which neatly outlines why the &lt;em&gt;shape&lt;&#x2F;em&gt; of organisms plays a big role in the niche they fill.
+And more recently, there’s been a &lt;a href=&quot;https:&#x2F;&#x2F;www.inkandswitch.com&#x2F;essay&#x2F;malleable-software&#x2F;&quot;&gt;call for &lt;em&gt;malleable software&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;.
+That is software that can adapt to user needs.
+And while the authors are skeptical of too specialized software, they highlight interoperability between tools as a big factor, similar to the Unix philosophy.&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#7&quot;&gt;7&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;So why does this approach of having a large diversity of tools work well for OSM, when otherwise we might see trends that go counter to this?
+I think there’s different aspects to it:
+First of all, there’s a &lt;strong&gt;clear “interoperable target”&lt;&#x2F;strong&gt; - that is a place where people send contributions to: the OSM database.
+Ultimately it doesn’t matter which tooling someone used, the changesets end up in the same place, contributing to the larger project and shared goal.
+Then there’s two other &lt;a href=&quot;https:&#x2F;&#x2F;osf.io&#x2F;preprints&#x2F;socarxiv&#x2F;rw58y_v1&quot;&gt;key aspects of &lt;em&gt;peer-produced&lt;&#x2F;em&gt; systems&lt;&#x2F;a&gt;, &lt;strong&gt;having a wide &lt;em&gt;range of tasks&lt;&#x2F;em&gt; that are &lt;em&gt;granular&lt;&#x2F;em&gt; and &lt;em&gt;modular&lt;&#x2F;em&gt;&lt;&#x2F;strong&gt;.&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#8&quot;&gt;8&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;
+In other words: There’s lots of different types of contributions that one can make to OSM, ranging from very small (e.g. Verifying that a business still exists) to very large (e.g. Adding a whole new neighborhood with streets, buildings etc. to the database).
+But no matter the size, all of these contributions are valid and help improve the overall database and map.&lt;&#x2F;p&gt;
+&lt;p&gt;And lastly, there is the elephant in the room:
+There is no incentive to build a &lt;em&gt;“super&#x2F;everything app”&lt;&#x2F;em&gt;.
+In the commercial space, the main incentive for building these tools is to keep “your” customers locked up in a closed, proprietary ecosystem.
+With that, the cost of switching becomes so high that you can maintain a ‘captive audience’.
+But in a digital commons, that is built on cooperation rather than competition, such an approach makes little sense.
+Especially for tools that are open source for contributing into the commons for the community benefit.&lt;&#x2F;p&gt;
+&lt;p&gt;It seems that under those combined circumstances, maintaining a diversity of tools works quite well.
+It provides a pathway for making lots of different contributions by lots of different contributors.
+And just like it takes a village to raise a child, it takes a global village – with many diverse contributions – to create a map &lt;a href=&quot;https:&#x2F;&#x2F;www.apc.org&#x2F;en&#x2F;news&#x2F;every-door-going-map-user-open-source-map-creator&quot;&gt;as a by-product of understanding the world&lt;&#x2F;a&gt;.
+And that’s a reason to not only celebrate the birthday of OpenStreetMap, but also the huge diversity of contributors, the ways in which they contribute and the tools they use for that.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;references&quot;&gt;References&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Greshake Tzovaras, B. (2025, July 24). Making a Panoramax Mastodon Bot. Bastian Greshake Tzovaras. https:&#x2F;&#x2F;doi.org&#x2F;10.59350&#x2F;ad1s9-yzs02&lt;&#x2F;li&gt;
+&lt;li&gt;Greshake Tzovaras, B. (2025, March 17). Adding wayside shrines to OSM with MapComplete. Bastian Greshake Tzovaras. https:&#x2F;&#x2F;doi.org&#x2F;10.59350&#x2F;tehs2-enz94&lt;&#x2F;li&gt;
+&lt;li&gt;Kloppenborg, K., Ball, M. P., &amp;amp; Greshake Tzovaras, B. (2021, May 23). A peer production model for citizen science: comparative analysis of three online platforms. https:&#x2F;&#x2F;doi.org&#x2F;10.31235&#x2F;osf.io&#x2F;rw58y&lt;&#x2F;li&gt;
+&lt;li&gt;Litt G, Horowitz J, van Hardenberg P, and Matthews T. (2025). Malleable Software: Restoring User Agency in a World of Locked-Down Apps. Ink &amp;amp; Switch. https:&#x2F;&#x2F;www.inkandswitch.com&#x2F;essay&#x2F;malleable-software&#x2F;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h3 id=&quot;footnotes&quot;&gt;Footnotes&lt;&#x2F;h3&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;Of course that also plays a role, people do realistically have different preferences or are willing to make different trade-offs with respect to usability.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;2&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;2&lt;&#x2F;sup&gt;
+&lt;p&gt;If you &lt;a href=&quot;https:&#x2F;&#x2F;hdyc.neis-one.org&#x2F;?Bastian%20Greshake%20Tzovaras&quot;&gt;look at my contribution history&lt;&#x2F;a&gt;, you can actually see some of that diversity, but as different editors handle how changesets are pushed differently, the raw numbers can be a bit misleading.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;3&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;3&lt;&#x2F;sup&gt;
+&lt;p&gt;And of course it works equally well to “fully” annotate buildings (addresses, number of floors, color, roof styles, …), as the name suggests.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;4&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;4&lt;&#x2F;sup&gt;
+&lt;p&gt;It also works great for adding in simple objects, like all the play objects on a playground!&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;5&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;5&lt;&#x2F;sup&gt;
+&lt;p&gt;If an object isn’t supported yet, one can write a custom layer like I did for the wayside shrines, but that’s slightly more advanced. Either way, images uploaded through MapComplete are automatically linked as an OSM tag and available via their own Panoramax instance.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;6&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;6&lt;&#x2F;sup&gt;
+&lt;p&gt;In the OSM universe, the &lt;em&gt;OsmAnd&lt;&#x2F;em&gt; map&#x2F;navigation&#x2F;editing app is maybe an example of such a &lt;em&gt;Swiss Army Knife&lt;&#x2F;em&gt;: Stuffed with features, it is very powerful and can do a lot of things, but comes close to requiring an advanced degree to really use all of those possibilities. As a result, for many&#x2F;most use cases (think of doing a simple hike) there will be other, simpler, more specialized tools that will get the job done in a simpler&#x2F;better way.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;7&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;7&lt;&#x2F;sup&gt;
+&lt;p&gt;Thanks to &lt;a href=&quot;https:&#x2F;&#x2F;merveilles.town&#x2F;@i_dabble&#x2F;114663792048502201&quot;&gt;Helge Rausch&lt;&#x2F;a&gt;, who had pointed me towards the article initially and also highlighted the similarity to the Unix philosophy!&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;8&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;8&lt;&#x2F;sup&gt;
+&lt;p&gt;If you look at &lt;a href=&quot;https:&#x2F;&#x2F;osf.io&#x2F;preprints&#x2F;socarxiv&#x2F;rw58y_v1&quot;&gt;page 5 of the preprint&lt;&#x2F;a&gt; you’ll find a longer list of characteristics that are found in peer-production. The examples given are from Wikipedia, but are easily translatable to OSM&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Hello World</title>
+        <published>2023-07-30T00:00:00+00:00</published>
+        <updated>2023-07-30T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://choique.org/en/hello-world/"/>
+        <id>https://choique.org/en/hello-world/</id>
+        
+        <content type="html" xml:base="https://choique.org/en/hello-world/">&lt;p&gt;Lorem markdownum auras canities nostros caede Nilus est sacer atque Telephon totoque. Modo dedit facies et se muneris egesto Harpalos Iuppiter caloris animam, &lt;a href=&quot;http:&#x2F;&#x2F;lacrimantia.com&#x2F;&quot;&gt;cum Neritius&lt;&#x2F;a&gt; potuit premis consistere facundia fecere. Sibi utrumque harenosi requiescit umbrae; non culpae, &lt;strong&gt;sine infelix&lt;&#x2F;strong&gt; et annis laedat tosta, ostendere sede. Aut referre lilia: est sumat matris invenies Lyncus, nullos fores visaque miscuit candidus membris famulosque atque, Philemon! Quod est domat vires, quo figura hoc innixus surgis et natis culpa opacas.&lt;&#x2F;p&gt;
+&lt;p&gt;Securus &lt;strong&gt;vitae&lt;&#x2F;strong&gt;, mariti it sed agere petet adhuc Deucalion tradere numero corpore inquit, ubi. Sinat nec in intorquet corpus demite multa, in scelus Pelasgae cladis.&lt;&#x2F;p&gt;
+&lt;p&gt;Perpetuos flagrant cedere anum Cyane caelumque decor. Timemus dum cedendo moriemur &lt;strong&gt;sorores&lt;&#x2F;strong&gt;, toto &lt;strong&gt;vero totumque vindice&lt;&#x2F;strong&gt; rex pecorum mente.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Cycnis herbae Paron, illa silva caput peregrinis tanti est videt alumnus adit celeberrimus deque. Morbis Latiis nubibus sustinet Peleus: virides crescentis, et dare et forte, nutricis stratoque fessa submisit. Inque apta posset! Veteres adyto relinquit hamatis harundinibus &lt;a href=&quot;http:&#x2F;&#x2F;www.procubuit-effigiem.io&#x2F;precariinter&quot;&gt;pendebat quamquam&lt;&#x2F;a&gt; serpentis! Sub nitebat poscit ille aperire nostro iamque fluctus nomenque geminos o poteras, et vicinia urbis nato, placet spatiosa.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Phrygiae iuvencae bracchia pignus nec! &lt;a href=&quot;http:&#x2F;&#x2F;www.parvo-metuens.io&#x2F;nesciovivit.aspx&quot;&gt;Mediis iuventam&lt;&#x2F;a&gt;; divino rubet; animas baculisque mors, et perque cum nostras! Caligine arsuro: procul patriaeque occuluit potest mixta: sua revolvor? Merito victus aestu puto quam, clamant ego.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

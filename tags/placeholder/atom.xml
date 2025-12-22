@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
+    <title>Choique - placeholder</title>
+    <link rel="self" type="application/atom+xml" href="https://choique.org/tags/placeholder/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://choique.org"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-07-30T00:00:00+00:00</updated>
+    <id>https://choique.org/tags/placeholder/atom.xml</id>
+    <entry xml:lang="es">
+        <title>Hola Mundo</title>
+        <published>2023-07-30T00:00:00+00:00</published>
+        <updated>2023-07-30T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://choique.org/hello-world-es/"/>
+        <id>https://choique.org/hello-world-es/</id>
+        
+        <content type="html" xml:base="https://choique.org/hello-world-es/">&lt;p&gt;Lorem markdownum auras canities nostros caede Nilus est sacer atque Telephon totoque. Modo dedit facies et se muneris egesto Harpalos Iuppiter caloris animam, &lt;a href=&quot;http:&#x2F;&#x2F;lacrimantia.com&#x2F;&quot;&gt;cum Neritius&lt;&#x2F;a&gt; potuit premis consistere facundia fecere. Sibi utrumque harenosi requiescit umbrae; non culpae, &lt;strong&gt;sine infelix&lt;&#x2F;strong&gt; et annis laedat tosta, ostendere sede. Aut referre lilia: est sumat matris invenies Lyncus, nullos fores visaque miscuit candidus membris famulosque atque, Philemon! Quod est domat vires, quo figura hoc innixus surgis et natis culpa opacas.&lt;&#x2F;p&gt;
+&lt;p&gt;Securus &lt;strong&gt;vitae&lt;&#x2F;strong&gt;, mariti it sed agere petet adhuc Deucalion tradere numero corpore inquit, ubi. Sinat nec in intorquet corpus demite multa, in scelus Pelasgae cladis.&lt;&#x2F;p&gt;
+&lt;p&gt;Perpetuos flagrant cedere anum Cyane caelumque decor. Timemus dum cedendo moriemur &lt;strong&gt;sorores&lt;&#x2F;strong&gt;, toto &lt;strong&gt;vero totumque vindice&lt;&#x2F;strong&gt; rex pecorum mente.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Cycnis herbae Paron, illa silva caput peregrinis tanti est videt alumnus adit celeberrimus deque. Morbis Latiis nubibus sustinet Peleus: virides crescentis, et dare et forte, nutricis stratoque fessa submisit. Inque apta posset! Veteres adyto relinquit hamatis harundinibus &lt;a href=&quot;http:&#x2F;&#x2F;www.procubuit-effigiem.io&#x2F;precariinter&quot;&gt;pendebat quamquam&lt;&#x2F;a&gt; serpentis! Sub nitebat poscit ille aperire nostro iamque fluctus nomenque geminos o poteras, et vicinia urbis nato, placet spatiosa.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Phrygiae iuvencae bracchia pignus nec! &lt;a href=&quot;http:&#x2F;&#x2F;www.parvo-metuens.io&#x2F;nesciovivit.aspx&quot;&gt;Mediis iuventam&lt;&#x2F;a&gt;; divino rubet; animas baculisque mors, et perque cum nostras! Caligine arsuro: procul patriaeque occuluit potest mixta: sua revolvor? Merito victus aestu puto quam, clamant ego.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
