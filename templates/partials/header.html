@@ -9,11 +9,11 @@
       <ul>
         {% if config.extra.menu %}
           {% for menu in config.extra.menu %}
-          <li><a href="{{ get_url(path=menu.url) | safe }}">{% if lang == "es" %}{{ menu.name_es }}{% else %}{{ menu.name }}{% endif %}</a></li>
+          <li><a href="{{ get_url(path=menu.url, lang=lang) | safe }}">{% if lang == "es" %}{{ menu.name }}{% else %}{{ menu.name_en }}{% endif %}</a></li>
           {% endfor %} 
         {% else %}
           <li><a href="{{ config.base_url | safe }}">Archivo</a></li>
-          <li><a href="{{ get_url(path='tags') | safe }}">Tags</a></li>
+          <li><a href="{{ get_url(path='tags', lang=lang) | safe }}">Tags</a></li>
         {% endif %}
       </ul>
     </nav>
@@ -23,7 +23,7 @@
         <li><a href="/">ES</a></li>
         {% endif %}
         {% if lang == "es" %}
-        <li><a href="/en">EN</a></li>
+        <li><a href="en">EN</a></li>
         {% endif %}
       </ul>
     </nav>

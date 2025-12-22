@@ -1,5 +1,5 @@
 +++
-title = "Projects"
+title = "Contact"
 template = "content.html"
 +++
 
