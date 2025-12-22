@@ -3,6 +3,10 @@
   text-transform: lowercase;
 }
 
+header {
+    box-shadow: none;
+}
+
 header li {
     opacity: 1;
 }
@@ -46,6 +50,22 @@ header .logo {
     background-color: yellow;
 }
 
+.home-text h3 i {
+    font-style: italic;
+    display: block;
+    margin-top: 1rem;
+}
+
+.language li a {
+    border: 1px solid black;
+    color: black;
+    font-size: .7rem;
+    padding: .3rem;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
 /* Dark Mode */
 
 [saved-theme="dark"] .logo {
@@ -54,4 +74,29 @@ header .logo {
 
 [saved-theme="dark"] .home-text h3 strong {
     color: var(--background-color)
+}
+
+[saved-theme="dark"] .language li a {
+    color: white;
+    border-color: white;
+}
+
+[saved-theme="dark"] header li a  {
+    color: white;
+}
+
+/* Small screens */
+
+@media (max-width: 600px) {
+
+.language {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.home-text h3 {
+    font-size: 1.6rem;
+}
+
 }

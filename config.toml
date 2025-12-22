@@ -22,19 +22,23 @@ email = "contact@choique.org"
 timeformat = "%B %e, %Y"
 
 [[extra.menu]]
-name = "Inicio"
+name = "Home"
+name_es = "Inicio"
 url = "/"
 
 [[extra.menu]]
-name = "Acerca de"
+name = "About"
+name_es = "Acerca de"
 url = "acerca-de"
 
 [[extra.menu]]
-name = "Proyectos"
+name = "Projects"
+name_es = "Proyectos"
 url = "proyectos"
 
 [[extra.menu]]
-name = "Contacto"
+name = "Contact"
+name_es = "Contacto"
 url = "contacto"
 
 [extra.footer]
