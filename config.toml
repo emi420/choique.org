@@ -12,7 +12,6 @@ taxonomies = [{ name = "tags", feed = true }]
 default_language = "es"
 
 [markdown]
-highlight_code = true
 highlight_theme = "visual-studio-dark"
 smart_punctuation = true
 
