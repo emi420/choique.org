@@ -33,7 +33,7 @@ La herramienta seleccionada para recolectar los datos fueron SketchMap Tool y Ch
 
 Estas áreas identificadas por las vecinas del barrio fueron las prioritarias para efectuar los recorridos de los grupos de mapeo en campo y para determinar los puntos a recolectar. Los que se alinearon, por un lado con variables de interés en caso de inundaciones y con las necesidades priorizadas por la comunidad local. 
 
-{{ iframe(link="https://chatmap.hotosm.org/#map/147b96ff-8b56-4c2e-bb30-67ee6fbdd5c4") }}
+{{ iframe(link="https://chatmap.hotosm.org/#map/1622e96d-f1ae-4608-8d50-7e038fc67c30") }}
 
 En este link encontrarán los datos recolectado con ChatMap con sus respectivas etiquetas: [ChatMap](https://chatmap.hotosm.org/#map/1622e96d-f1ae-4608-8d50-7e038fc67c30)
 

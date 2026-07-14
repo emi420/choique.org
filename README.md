@@ -8,7 +8,10 @@
 
 ## Getting started
 
+In the repository root folder (ie: choique.org):
+
 ```bash
 zola serve
 ```
 
+And then open `http://127.0.0.1:1111`
