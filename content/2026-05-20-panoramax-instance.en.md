@@ -11,6 +11,8 @@ taxonomies:
 
 **This post was [first published on Bastian's blog](https://tzovar.as/setting-up-a-first-panoramax-instance-for-argentina/)** 
 
+**Una [versión en español es disponible también](https://choique.org/panoramax-instance-es/)**
+
 Panoramax is an open-source system for creating a commons of street-level imagery, thus creating an openly licensed alternative to Google StreetView etc.
 And unlike some of the other alternatives, which openly license the images, the whole software stack itself is free & open source software too.
 Plus it is based around the idea of creating a federation of Panoramax servers or instances, similar to the Fediverse of Mastodon, PeerTube, Lemmy, etc.
