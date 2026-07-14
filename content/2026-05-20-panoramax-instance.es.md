@@ -8,7 +8,9 @@ taxonomies:
   tags: ["OSM", "openstreetmap", "panoramax", "street-level imagery"]
 ---
 
-**Una primera versión de este articulo [fue publicado en OSM](https://www.openstreetmap.org/user/Bastian%20Greshake%20Tzovaras/diary/408687)**
+**Una primera versión de este articulo [fue publicado en OSM](https://www.openstreetmap.org/user/Bastian%20Greshake%20Tzovaras/diary/408687).**
+
+**An [English version is available too](https://choique.org/en/panoramax-instance/)**.
 
 Panoramax es un sistema de código abierto para crear un repositorio común de imágenes a nivel de calle, ofreciendo así una alternativa con licencia abierta a Google Street View, etc.
 A diferencia de otras alternativas que licencian las imágenes de forma abierta, todo el software es libre y de código abierto.
