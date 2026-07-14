@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title></title>
+    <link rel="self" type="application/atom+xml" href="https://choique.org/en/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://choique.org"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-05-18T00:00:00+00:00</updated>
+    <id>https://choique.org/en/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Setting up a first Panoramax instance for Argentina</title>
+        <published>2026-05-18T00:00:00+00:00</published>
+        <updated>2026-05-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://choique.org/en/panoramax-instance/"/>
+        <id>https://choique.org/en/panoramax-instance/</id>
+        
+        <content type="html" xml:base="https://choique.org/en/panoramax-instance/">&lt;p&gt;&lt;strong&gt;This post was &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;tzovar.as&#x2F;setting-up-a-first-panoramax-instance-for-argentina&#x2F;&quot;&gt;first published on Bastian&#x27;s blog&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Una &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;choique.org&#x2F;panoramax-instance-es&#x2F;&quot;&gt;versión en español es disponible también&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Panoramax is an open-source system for creating a commons of street-level imagery, thus creating an openly licensed alternative to Google StreetView etc.
+And unlike some of the other alternatives, which openly license the images, the whole software stack itself is free &amp;amp; open source software too.
+Plus it is based around the idea of creating a federation of Panoramax servers or instances, similar to the Fediverse of Mastodon, PeerTube, Lemmy, etc.&lt;&#x2F;p&gt;
+&lt;p&gt;Since &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;tzovar.as&#x2F;open-source-streetview&#x2F;&quot;&gt;the first time I posted about Panoramax&lt;&#x2F;a&gt;, the federation has grown quite a bit, to more than 10 instances.
+But, as seems (unfortunately ) quite normal for most federated systems, there still is some strong centralisation in terms of usage.
+The instances of the French chapter of OpenStreetMap (OSM FR) and the French National Geographic Institute &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;panoramax.fr&#x2F;stats&quot;&gt;collect around 97% of all images so far&lt;&#x2F;a&gt;.
+In case of the OSM FR instance this is also due to the fact, that until now they were the only big instance that allowed uploading images from any place on earth, instead of geo-restricting uploads to a region or country.&lt;&#x2F;p&gt;
+&lt;p&gt;For Panoramax, such centralisation is not just problematic when thinking about the ability to work in local contexts or the federation&#x27;s resilience, but also for the sustainability of those individual instances for storage reasons:
+Storing millions of high-resolution street-level images eats up a lot of storage.
+In the case of the OSM FR instance, the around 51 million pictures take up 120 TB for the raw images, and another 66 TB for derivative images necessary for the efficient display and delivery of them.&lt;&#x2F;p&gt;
+&lt;p&gt;And so, a couple of weeks ago, Christian Quest posted on the OSM community forum &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;community.openstreetmap.org&#x2F;t&#x2F;osm-fr-panoramax-server-only-for-testing-if-outside-of-france&#x2F;143428&quot;&gt;that the OSM FR instance is running out of space&lt;&#x2F;a&gt;.
+He also shared that around half of all of those images come from outside France, contributing to making the status quo not sustainable in the long-term.
+And for that reason, future uploads from abroad would very reasonably not be possible.
+As someone who did upload quite a lot of images from here in Argentina, I definitely contributed to that problem and it also meant trying to move forward with getting a local instance up more urgently.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;panoramax-in-the-context-of-argentina&quot;&gt;Panoramax in the context of Argentina&lt;&#x2F;h2&gt;
+&lt;p&gt;Not having a local instance wasn&#x27;t even necessarily for lack of trying, but there&#x27;s a number of factors that provide additional barriers:
+The first, and maybe biggest one is the sheer cost of hardware.
+Electronics in general are extremely expensive in Argentina.
+Not just in relative terms, compared to local salaries, but even in absolute terms and outside any &quot;AI&quot;-driven cost explosions, thanks to tarriffs and fees associated with importing.
+This means that hardware is generally run until it collapses and means the market for used hardware is not particularly plentiful &lt;strong&gt;and&lt;&#x2F;strong&gt; that the prices for used hardware here often are still higher than what one would have paid for it &lt;em&gt;new&lt;&#x2F;em&gt; in places like the EU or the US.
+As such, the chances of getting hardware donations, &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;forum.geocommuns.fr&#x2F;t&#x2F;deploying-a-panoramax-instance-the-pre-flight-check-list&#x2F;1892&quot;&gt;that other locations can have luck with&lt;&#x2F;a&gt; for such a project, are also quite slim, especially when starting from scratch.&lt;&#x2F;p&gt;
+&lt;p&gt;Similarly, public institutions like universities or municipalities, which in other places might be natural partners for such an effort, while potentially interested, lack the resources to help:
+They are all bleeding money under the national government&#x27;s intentional defunding of all public services.
+If you read any German (or are willing to use machine translation) &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;amerika21.de&#x2F;autor&#x2F;bastian-greshake-tzovaras&quot;&gt;you can read my own reporting on that topic at Amerika21&lt;&#x2F;a&gt;, but otherwise any media that has international coverage should help.&lt;&#x2F;p&gt;
+&lt;p&gt;The other alternative for getting a Panoramax instance up and running, that a range of other smaller instances seem to use, is self-hosting at home.
+But, presence of hardware aside, even that can be not so simple, due to infrastructure constraints.
+Especially in more rural contexts like my own:
+Beyond regular power cuts or outages, which a UPS could help get around, local internet providers often only offer very slow speeds.
+For example, in my hometown the local cooperative – which manages public utilities including internet connections – offers slow aDSL speeds, with optic fibre being planned to come to &lt;em&gt;some neighborhoods&lt;&#x2F;em&gt; at some point in the next year.
+That would mean actually using such a Panoramax instance would be sucking HD images through a straw.&lt;&#x2F;p&gt;
+&lt;p&gt;All of those factors meant that – despite trying, on and off and with different intensity, since 2024 – we didn&#x27;t get a local instance of the ground so far.
+But with the change to the OSM FR instance generating the necessary urgency it was time to not let the perfect be the enemy of the good any longer.
+And while Argentina as a country is huge, maybe it doesn&#x27;t need hundreds of terabytes to get started?
+Firstly, the &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;List_of_countries_by_road_network_size&quot;&gt;actual road network seems to be only ~1&#x2F;4th of the one of France&lt;&#x2F;a&gt;.
+And secondly, the number of local contributors that upload imagery, at least as estimated from the OSM FR instance, is quite manageable!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;picking-a-setup-and-making-an-instance&quot;&gt;Picking a setup and making an instance&lt;&#x2F;h2&gt;
+&lt;p&gt;Based on this, I wondered if it would maybe not be possible to just rent a &lt;em&gt;&quot;small&quot;&lt;&#x2F;em&gt; dedicated server somewhere, just to get things off the ground.
+Given the hardware costs, see above, it would have to be a hoster outside the country, as local options are also quite expensive.
+Which isn&#x27;t ideal latency-wise, but beggars can&#x27;t be choosers.
+And so I started brainstorming more concretely with &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;social.coop&#x2F;@dbellomo&quot;&gt;Daniel&lt;&#x2F;a&gt; and &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;en.osm.town&#x2F;@mdione&quot;&gt;Marcos&lt;&#x2F;a&gt; about options and how we could setup an instance.&lt;&#x2F;p&gt;
+&lt;p&gt;To make use of his extensive first-hand Panoramax-hosting experience I also reached out to Christian Quest, who pointed out that French hoster &lt;em&gt;OVH&lt;&#x2F;em&gt; actually &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;eco.ovhcloud.com&#x2F;en&#x2F;kimsufi&#x2F;ks-stor&#x2F;&quot;&gt;offers a dedicated server-type&lt;&#x2F;a&gt; that&#x27;s somewhat affordable at US $26.60&#x2F;month and comes with four 4TB hard drives that can be setup into a software RAID and 500 GB SSD for storing the database etc&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;.
+In a RAID5 setup, this would give 12 TB of usable storage for the images (or 16 TB, when paying slightly more for an option of four 6TB drives), and the rest of the specifications would also be enough to run an instance.
+At least, as long as one makes use of the image blurring service that OSM FR graciously runs as a service, as the suggested machine type doesn&#x27;t have a dedicated GPU.
+In the 16 TB setup, this should be enough to store around 4 million images, assuming the same mix of image sources&#x2F;qualities that OSM FR stores.&lt;&#x2F;p&gt;
+&lt;p&gt;That looked like it should last for at least a bit, as so far around 830,000 images taken in Argentina have been uploaded to the OSM FR instance over the past 2 years.
+And so we decided to go ahead and give it a try, to get us started and hopefully allows us to create a convincing demo.
+Which in turn can hopefully help getting into more targeted conversations for support in the future.&lt;&#x2F;p&gt;
+&lt;p&gt;With the decision for the hosting type made, the actual setup to get us started wasn&#x27;t too hard either:
+The Panoramax team made a &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;docs.panoramax.fr&#x2F;backend&#x2F;install&#x2F;tutorials&#x2F;running_docker_osm_auth&#x2F;&quot;&gt;great documentation about deploying with &lt;code&gt;docker compose&lt;&#x2F;code&gt;&lt;&#x2F;a&gt; and using OSM through OAuth as a login provider.
+And we benefitted even more from &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.openstreetmap.org&#x2F;user&#x2F;Matija%20Nalis&#x2F;diary&#x2F;408636&quot;&gt;the detailed write-up by Matija Nalis&lt;&#x2F;a&gt;, who had recently deployed the Panoramax instance of OSM Croacia, which took us to 99% of the way of deploying it (for the one exception see the details below).&lt;&#x2F;p&gt;
+&lt;p&gt;And so we deployed our Panoramax instance to &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;panoramax.libre.net.ar&#x2F;&quot;&gt;&lt;em&gt;&lt;strong&gt;https:&#x2F;&#x2F;panoramax.libre.net.ar&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;.
+As far as I know, this is not only the first instance in Latin America, but in all of the Americas!&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#2&quot;&gt;2&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;
+It currently is setup to accept images taken within Argentina and Uruguay, but if any folks in neighboring countries need some space, we can see what we can do, just get in touch with us!&lt;&#x2F;p&gt;
+&lt;p&gt;Overall, this was a lot easier, less painful and even cheaper than I had expected.
+And so we hope that this motivates others to give it a shot too.
+Panoramax can only work at a larger scale, if more folks are standing up local instances.
+Maybe not even at a national level, but at a regional or municipal level, bringing down storage needs and thus cost.&lt;&#x2F;p&gt;
+&lt;p&gt;In terms of admin effort and expertise needed:
+There&#x27;s a growing number of people who have Panoramax server admin experience, and in my experience everyone is super happy to help.
+Having said that, having a small team of people willing to help is great, both to be able to get second opinions and help with the bus-factor - but also to turn it into a social effort!
+For our little instance, that includes not only Marcos and Dani, but also &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.openstreetmap.org&#x2F;user&#x2F;lbellomo&quot;&gt;Lucas&lt;&#x2F;a&gt;, who offered to share his server admin expertise as well when he heard of our idea!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;appendix-setting-up-the-software-raid&quot;&gt;Appendix: Setting up the Software RAID&lt;&#x2F;h2&gt;
+&lt;p&gt;The only thing missing from the detailed write-up about the OSM-HR instance was on how to set-up the software RAID.
+The server setup of OVH comes without any of the HDDs configured, as it just formats the SSD instead.
+But luckily that was not too hard &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;hetmanrecovery.com&#x2F;recovery_news&#x2F;how-to-create-software-raid-5-with-lvm.htm&quot;&gt;to read up on&lt;&#x2F;a&gt;.
+For others who want to reproduce this, the steps are below.&lt;&#x2F;p&gt;
+&lt;p&gt;To get the 4 HDD setup as a RAID5 we went with LVM too, which is similar to the description for OSM-HR.
+To prepare the HDDs, we first created the physical volumes:&lt;&#x2F;p&gt;
+&lt;pre&gt;&lt;code&gt;pvcreate &#x2F;dev&#x2F;sda
+pvcreate &#x2F;dev&#x2F;sdb
+pvcreate &#x2F;dev&#x2F;sdc
+pvcreate &#x2F;dev&#x2F;sdd
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Then we created the volume group &lt;code&gt;vg1&lt;&#x2F;code&gt; by running &lt;code&gt;vgcreate vg1 &#x2F;dev&#x2F;sda &#x2F;dev&#x2F;sdb &#x2F;dev&#x2F;sdc &#x2F;dev&#x2F;sdd&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Lastly, we created the actual LV: &lt;code&gt;lvcreate -n panoramax-photos --type raid5 -i 3 -l 100%VG vg1&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The parameters for this are&lt;&#x2F;p&gt;
+&lt;pre&gt;&lt;code&gt;    -n: name of volume
+    --type raid5: raid type
+    -i: use 3 devices out of the 4 (for single drive redundancy)
+    -l 100%VG: use 100% of volume group
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;As a result we got:&lt;&#x2F;p&gt;
+&lt;pre&gt;&lt;code&gt;root@panoramax-ar:~# lvscan
+  ACTIVE            &amp;#39;&#x2F;dev&#x2F;vg1&#x2F;panoramax-photos&amp;#39; [16.37 TiB] inherit
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;From there on, &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.openstreetmap.org&#x2F;user&#x2F;Matija%20Nalis&#x2F;diary&#x2F;408636&quot;&gt;the rest of the instructions of OSM HR&lt;&#x2F;a&gt; will get you there!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;footnotes&quot;&gt;Footnotes&lt;&#x2F;h2&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;To be clear, depending on your local context this of course can still be out of financial reach, but it has a lot lower start-up cost than many alternatives. And I&#x27;m lucky enough to be able to shoulder the cost, especially since &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;tzovar.as&#x2F;sunsetting-opensnp&#x2F;&quot;&gt;we shut down openSNP&lt;&#x2F;a&gt; last year, which was the main monthly server cost I paid before. But if you want to help pay these bills, &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;ko-fi.com&#x2F;gedankenstuecke&quot;&gt;feel free&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;2&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;2&lt;&#x2F;sup&gt;
+&lt;p&gt;At least the first publicly visible and accessible instance that aims to federate, of course there might be privately hosted instances.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The diversity of OpenStreetMap tools and how they help create a commons</title>
+        <published>2025-09-23T00:00:00+00:00</published>
+        <updated>2025-09-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://choique.org/en/long-article/"/>
+        <id>https://choique.org/en/long-article/</id>
+        
+        <content type="html" xml:base="https://choique.org/en/long-article/">&lt;p&gt;Last weekend was the 21st birthday of &lt;em&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.openstreetmap.org&quot;&gt;OpenStreetMap&lt;&#x2F;a&gt;&lt;&#x2F;em&gt; (OSM), and with some friends we celebrated the occasion with a little mapping party.
+Our plan was to combine flying drones to &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;dronetm.org&#x2F;&quot;&gt;collect aerial imagery&lt;&#x2F;a&gt; and &lt;a href=&quot;&#x2F;panoramax-bot&#x2F;&quot;&gt;collecting street-level imagery&lt;&#x2F;a&gt; with more traditional field mapping.
+Due to high winds, we mostly ended up with street-level imagery and doing field mapping though, using a variety of tools.&lt;&#x2F;p&gt;
+&lt;p&gt;On the way home, I was reflecting on how amazing this richness and diversity of tools for contributing to OSM is.
+Not just in terms of methods (like collecting imagery, sharing GPS tracks, &lt;em&gt;arm-chair mapping&lt;&#x2F;em&gt; or surveying).
+But even just within each of these realms:
+Yesterday we surveyed using &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;every-door.app&#x2F;&quot;&gt;Every Door&lt;&#x2F;a&gt;, &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;streetcomplete.app&#x2F;&quot;&gt;StreetComplete&lt;&#x2F;a&gt;, &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;mapcomplete.org&#x2F;&quot;&gt;MapComplete&lt;&#x2F;a&gt;, and &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.hotosm.org&#x2F;tech-suite&#x2F;chatmap&#x2F;&quot;&gt;ChatMap&lt;&#x2F;a&gt;, while recording GPS tracks with &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.comaps.app&#x2F;&quot;&gt;CoMaps&lt;&#x2F;a&gt;.
+Before then sitting down with our computers, to make larger edits with &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;wiki.openstreetmap.org&#x2F;wiki&#x2F;ID&quot;&gt;iD&lt;&#x2F;a&gt; and &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;josm.openstreetmap.de&#x2F;&quot;&gt;JOSM&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;This wide spectrum of used tools is not (just&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;) because each of us had different preferences for tools.
+But also because different tools fill different niches.
+Even individually, I end up using virtually all of those mentioned tools every single day that I contribute to OSM.&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#2&quot;&gt;2&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;
+Why?
+Because each of them excels at particular and different use cases.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Every Door&lt;&#x2F;em&gt; is great for surveying when it comes to adding more complex points to the map, things like amenities or shops.&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#3&quot;&gt;3&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;
+For these objects one realistically wants to add a wide range of information in one go (opening hours, websites, phone numbers, …).
+&lt;em&gt;StreetComplete&lt;&#x2F;em&gt; is perfect to quickly add missing data to existing objects, at least in part because it tries to gamify OSM contributions.
+By highlighting different types of &quot;missing&quot; information around one&#x27;s current location, it&#x27;s easy to find things that are both simple to verify as simple to add by the click of a button&#x2F;answering a multiple-choice question (e.g. adding in the type of road surface).&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#4&quot;&gt;4&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;
+&lt;em&gt;MapComplete&lt;&#x2F;em&gt; is great for adding objects to which one might want to add photos, for example art works or &lt;a href=&quot;&#x2F;wayside-shrines-mapcomplete&#x2F;&quot;&gt;wayside shrines&lt;&#x2F;a&gt;, as long as the objects are already supported.&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#5&quot;&gt;5&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;
+And CoMaps works great if find yourself without any reception (which would be needed to download the live map) but you found a place where you want to make an edit, as you can look at the offline map and still queue up an edit&#x2F;note.
+Similarly, less surveying-based editors like iD and JOSM have their own niches they work well for.&lt;&#x2F;p&gt;
+&lt;p&gt;The answer to &lt;em&gt;&quot;what is the best editor&quot;&lt;&#x2F;em&gt; thus comes back to the common &lt;em&gt;&quot;it depends on your use case&quot;&lt;&#x2F;em&gt;.
+While at times I&#x27;ve seen people complain about the &lt;em&gt;&lt;strong&gt;complexity&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; that comes with a large number of tools, I&#x27;d argue that &lt;strong&gt;this big diversity in tools is in reality a big asset to enabling contributions to OSM&lt;&#x2F;strong&gt;.
+Not only does it allow people to find a tool that works best for them and their contributing-style, it also facilitates having &lt;em&gt;the right tool for the job&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;If you think of &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;theconversation.com&#x2F;elon-musk-aims-to-turn-twitter-into-an-everything-app-a-social-media-and-marketing-scholar-explains-what-that-is-and-why-its-not-so-easy-to-do-211023&quot;&gt;&lt;em&gt;everything apps&lt;&#x2F;em&gt; or &lt;em&gt;super apps&lt;&#x2F;em&gt; that try combining a lot of software features&lt;&#x2F;a&gt;, their alleged appeal is to have all the functionality you could ever need in one place, but the reality is more often that those tools become bloated, hard to navigate, and calcify as any changes to the structure are infinitely harder given the size and complexity.
+I often compare this to the &lt;em&gt;Swiss Army Knife&lt;&#x2F;em&gt;:
+In a pinch, its little screwdrivers, saws, etc. will do their job to fix stuff around the house.
+But for any larger building project you definitely would like a toolbox with some real screwdrivers and saws.&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#6&quot;&gt;6&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;
+This is because these individual tools can focus efforts on supporting and implementing comparatively narrow use cases, without having to make extra trade-offs.&lt;&#x2F;p&gt;
+&lt;p&gt;Of course, the idea of having tools that &quot;do one thing well&quot; isn&#x27;t new.
+It&#x27;s part of the &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Unix_philosophy&quot;&gt;Unix philosophy&lt;&#x2F;a&gt;, alongside the idea that all of these tools should work together with each other.
+Similarly, how different types of contributions require different tooling reminds the biologist in me of &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.phys.ufl.edu&#x2F;courses&#x2F;phy3221&#x2F;spring10&#x2F;HaldaneRightSize.pdf&quot;&gt;JBS Haldane&#x27;s &lt;em&gt;On Being the Right Size&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;, which neatly outlines why the &lt;em&gt;shape&lt;&#x2F;em&gt; of organisms plays a big role in the niche they fill.
+And more recently, there&#x27;s been a &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.inkandswitch.com&#x2F;essay&#x2F;malleable-software&#x2F;&quot;&gt;call for &lt;em&gt;malleable software&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;.
+That is software that can adapt to user needs.
+And while the authors are skeptical of too specialized software, they highlight interoperability between tools as a big factor, similar to the Unix philosophy.&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#7&quot;&gt;7&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;So why does this approach of having a large diversity of tools work well for OSM, when otherwise we might see trends that go counter to this?
+I think there&#x27;s different aspects to it:
+First of all, there&#x27;s a &lt;strong&gt;clear &quot;interoperable target&quot;&lt;&#x2F;strong&gt; - that is a place where people send contributions to: the OSM database.
+Ultimately it doesn&#x27;t matter which tooling someone used, the changesets end up in the same place, contributing to the larger project and shared goal.
+Then there&#x27;s two other &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;osf.io&#x2F;preprints&#x2F;socarxiv&#x2F;rw58y_v1&quot;&gt;key aspects of &lt;em&gt;peer-produced&lt;&#x2F;em&gt; systems&lt;&#x2F;a&gt;, &lt;strong&gt;having a wide &lt;em&gt;range of tasks&lt;&#x2F;em&gt; that are &lt;em&gt;granular&lt;&#x2F;em&gt; and &lt;em&gt;modular&lt;&#x2F;em&gt;&lt;&#x2F;strong&gt;.&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#8&quot;&gt;8&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;
+In other words: There&#x27;s lots of different types of contributions that one can make to OSM, ranging from very small (e.g. Verifying that a business still exists) to very large (e.g. Adding a whole new neighborhood with streets, buildings etc. to the database).
+But no matter the size, all of these contributions are valid and help improve the overall database and map.&lt;&#x2F;p&gt;
+&lt;p&gt;And lastly, there is the elephant in the room:
+There is no incentive to build a &lt;em&gt;&quot;super&#x2F;everything app&quot;&lt;&#x2F;em&gt;.
+In the commercial space, the main incentive for building these tools is to keep &quot;your&quot; customers locked up in a closed, proprietary ecosystem.
+With that, the cost of switching becomes so high that you can maintain a &#x27;captive audience&#x27;.
+But in a digital commons, that is built on cooperation rather than competition, such an approach makes little sense.
+Especially for tools that are open source for contributing into the commons for the community benefit.&lt;&#x2F;p&gt;
+&lt;p&gt;It seems that under those combined circumstances, maintaining a diversity of tools works quite well.
+It provides a pathway for making lots of different contributions by lots of different contributors.
+And just like it takes a village to raise a child, it takes a global village – with many diverse contributions – to create a map &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.apc.org&#x2F;en&#x2F;news&#x2F;every-door-going-map-user-open-source-map-creator&quot;&gt;as a by-product of understanding the world&lt;&#x2F;a&gt;.
+And that&#x27;s a reason to not only celebrate the birthday of OpenStreetMap, but also the huge diversity of contributors, the ways in which they contribute and the tools they use for that.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;references&quot;&gt;References&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Greshake Tzovaras, B. (2025, July 24). Making a Panoramax Mastodon Bot. Bastian Greshake Tzovaras. https:&#x2F;&#x2F;doi.org&#x2F;10.59350&#x2F;ad1s9-yzs02&lt;&#x2F;li&gt;
+&lt;li&gt;Greshake Tzovaras, B. (2025, March 17). Adding wayside shrines to OSM with MapComplete. Bastian Greshake Tzovaras. https:&#x2F;&#x2F;doi.org&#x2F;10.59350&#x2F;tehs2-enz94&lt;&#x2F;li&gt;
+&lt;li&gt;Kloppenborg, K., Ball, M. P., &amp;amp; Greshake Tzovaras, B. (2021, May 23). A peer production model for citizen science: comparative analysis of three online platforms. https:&#x2F;&#x2F;doi.org&#x2F;10.31235&#x2F;osf.io&#x2F;rw58y&lt;&#x2F;li&gt;
+&lt;li&gt;Litt G, Horowitz J, van Hardenberg P, and Matthews T. (2025). Malleable Software: Restoring User Agency in a World of Locked-Down Apps. Ink &amp;amp; Switch. https:&#x2F;&#x2F;www.inkandswitch.com&#x2F;essay&#x2F;malleable-software&#x2F;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h3 id=&quot;footnotes&quot;&gt;Footnotes&lt;&#x2F;h3&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;Of course that also plays a role, people do realistically have different preferences or are willing to make different trade-offs with respect to usability.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;2&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;2&lt;&#x2F;sup&gt;
+&lt;p&gt;If you &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;hdyc.neis-one.org&#x2F;?Bastian%20Greshake%20Tzovaras&quot;&gt;look at my contribution history&lt;&#x2F;a&gt;, you can actually see some of that diversity, but as different editors handle how changesets are pushed differently, the raw numbers can be a bit misleading.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;3&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;3&lt;&#x2F;sup&gt;
+&lt;p&gt;And of course it works equally well to &quot;fully&quot; annotate buildings (addresses, number of floors, color, roof styles, …), as the name suggests.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;4&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;4&lt;&#x2F;sup&gt;
+&lt;p&gt;It also works great for adding in simple objects, like all the play objects on a playground!&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;5&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;5&lt;&#x2F;sup&gt;
+&lt;p&gt;If an object isn&#x27;t supported yet, one can write a custom layer like I did for the wayside shrines, but that&#x27;s slightly more advanced. Either way, images uploaded through MapComplete are automatically linked as an OSM tag and available via their own Panoramax instance.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;6&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;6&lt;&#x2F;sup&gt;
+&lt;p&gt;In the OSM universe, the &lt;em&gt;OsmAnd&lt;&#x2F;em&gt; map&#x2F;navigation&#x2F;editing app is maybe an example of such a &lt;em&gt;Swiss Army Knife&lt;&#x2F;em&gt;: Stuffed with features, it is very powerful and can do a lot of things, but comes close to requiring an advanced degree to really use all of those possibilities. As a result, for many&#x2F;most use cases (think of doing a simple hike) there will be other, simpler, more specialized tools that will get the job done in a simpler&#x2F;better way.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;7&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;7&lt;&#x2F;sup&gt;
+&lt;p&gt;Thanks to &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;merveilles.town&#x2F;@i_dabble&#x2F;114663792048502201&quot;&gt;Helge Rausch&lt;&#x2F;a&gt;, who had pointed me towards the article initially and also highlighted the similarity to the Unix philosophy!&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;8&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;8&lt;&#x2F;sup&gt;
+&lt;p&gt;If you look at &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;osf.io&#x2F;preprints&#x2F;socarxiv&#x2F;rw58y_v1&quot;&gt;page 5 of the preprint&lt;&#x2F;a&gt; you&#x27;ll find a longer list of characteristics that are found in peer-production. The examples given are from Wikipedia, but are easily translatable to OSM&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+</feed>

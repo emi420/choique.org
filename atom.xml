@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
+    <title>Choique</title>
+    <link rel="self" type="application/atom+xml" href="https://choique.org/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://choique.org"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-05-31T00:00:00+00:00</updated>
+    <id>https://choique.org/atom.xml</id>
+    <entry xml:lang="es">
+        <title>Informe de actividad de mapeo en campo para prevención de inundaciones: Esfuerzo Propio y Villa Moisés</title>
+        <published>2026-05-31T00:00:00+00:00</published>
+        <updated>2026-05-31T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://choique.org/informe-venado/"/>
+        <id>https://choique.org/informe-venado/</id>
+        
+        <content type="html" xml:base="https://choique.org/informe-venado/">&lt;p&gt;&lt;strong&gt;Este post fue previamente publicado &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.openstreetmap.org&#x2F;user&#x2F;Silvi715&#x2F;diary&#x2F;408944&quot;&gt;en Diario de OSM de Silvi715&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;introduccion&quot;&gt;Introducción&lt;&#x2F;h2&gt;
+&lt;p&gt;Durante tres días realizamos un trabajo de capacitación co-organizada por Maná, Choique, Municipalidad de Venado Tuerto, el Insituto Católico de Enseñanza Superior (ICES) y Cáritas Venado Tuerto. Y brindada en el marco de las actividades del programa de Embajadores Comunitarios de UN Mappers, del que soy representante en Argentina. Nos enfocamos en dos tipos de mapeo, remoto (usando ID Editor en OSM) y en campo (usando SketchMap Tool y ChatMap). El objetivo, de este trabajo consistía en mejorar el mapa de la zona sur de la ciudad (Barrio Villa Moisés y Esfuerzo Propio) para realizar un trabajo integral de prevención de inundaciones.&lt;&#x2F;p&gt;
+&lt;p&gt;Las actividades descriptas, se llevaron adelante el día Sábado, dedicado exclusivamente al trabajo de relevamiento.&lt;&#x2F;p&gt;
+&lt;p&gt;El área relevada presenta múltiples dimensiones de vulnerabilidad, entre ellas déficits en infraestructura urbana, servicios públicos, condiciones habitacionales y acceso a equipamientos. Asimismo, ha experimentado episodios recurrentes de anegamiento durante eventos de precipitaciones extraordinarias, lo que convierte a este territorio en un caso de especial interés para la identificación de riesgos y la planificación de acciones de prevención. Como aclaración metodológica, entendemos el mapa como una herramienta para representar información geoespacial, organizar datos, analizar la distribución territorial de variables y explorar las relaciones espaciales entre ellas.&lt;&#x2F;p&gt;
+&lt;p&gt;En este sentido, los mapas no constituyen una representación neutral de la realidad, sino un artefacto analítico cuya capacidad explicativa depende de las preguntas que orientan su construcción y de la interpretación que acompaña su lectura. Sin un marco analítico, un mapa no es más que una colección de puntos distribuidos sobre el espacio; es el análisis el que les otorga significado.&lt;&#x2F;p&gt;
+&lt;p&gt;La elaboración del informe final constituye una etapa fundamental del proceso, ya que permite transformar el relevamiento en conocimiento útil para la toma de decisiones. Una parte sustancial de este trabajo consiste en la curación, validación y clasificación de los datos, organizándolos en capas temáticas que faciliten su análisis e interpretación. Esta fase representa, además, el mayor esfuerzo del proceso de trabajo. La superposición e interacción entre las distintas capas posibilita identificar patrones espaciales, relaciones entre variables y áreas críticas. En este caso, las funcionalidades de uMap permiten alternar entre distintas formas de visualización —como mapas de calor, agrupamientos de puntos y capas temáticas—, favoreciendo una lectura más clara y efectiva de la información recolectada.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;informacion-recolectada&quot;&gt;Información recolectada&lt;&#x2F;h2&gt;
+&lt;p&gt;El trabajo de relevamiento se realizó en una jornada en el mes de Mayo (30&#x2F;05&#x2F;2026) se involucraron 55 personas que se formaron durante el taller y 10 personas de la comunidad que oficiaron como acompañantes y guías durante el proceso de relevamiento. Se recolectaron 168 puntos en 85 minutos divididos en cuatro grupos: arbolado público, luminarias, mini basurales y desagües y estado de las calles.&lt;&#x2F;p&gt;
+&lt;p&gt;La herramienta seleccionada para recolectar los datos fueron SketchMap Tool y ChatMap. La primera herramienta, se utilizó para delimitar las zonas de mapeo con vecinas del barrio. A quiénes se les solicitó que marcaran en tres colores las zonas sin luminarias, los mini basurales cercanos a sus lugares de residencia, las calles en peor estado o con problemas de nomenclatura y áreas de viviendas afectadas por las inundaciones.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;live.staticflickr.com&#x2F;65535&#x2F;55302918952_a555351c26_6k.jpg&quot; alt=&quot;Fotografía del mapeo en papel realizado con vecinas, foto: Bastian Greshake Tzovaras&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;live.staticflickr.com&#x2F;65535&#x2F;55359316100_712e96eb59_b.jpg&quot; alt=&quot;SketchMap Tool de Barrio Esfuerzo Propio y Villa Moises&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Estas áreas identificadas por las vecinas del barrio fueron las prioritarias para efectuar los recorridos de los grupos de mapeo en campo y para determinar los puntos a recolectar. Los que se alinearon, por un lado con variables de interés en caso de inundaciones y con las necesidades priorizadas por la comunidad local.&lt;&#x2F;p&gt;
+&lt;div&gt;
+    &lt;iframe
+        width=&quot;100%&quot;
+        height=&quot;500px&quot;
+        src=&quot;https:&amp;#x2F;&amp;#x2F;chatmap.hotosm.org&amp;#x2F;#map&amp;#x2F;1622e96d-f1ae-4608-8d50-7e038fc67c30&quot;
+        style=&quot;border: 1px solid #ddd; border-radius: 5px; margin: 5px 0; padding: 5px; background-color: white;&quot;
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen&gt;
+    &lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;En este link encontrarán los datos recolectado con ChatMap con sus respectivas etiquetas: &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;chatmap.hotosm.org&#x2F;#map&#x2F;1622e96d-f1ae-4608-8d50-7e038fc67c30&quot;&gt;ChatMap&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Resumen de datos relevados:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Luminarias: 60 puntos&lt;&#x2F;li&gt;
+&lt;li&gt;Arbolado 27 puntos&lt;&#x2F;li&gt;
+&lt;li&gt;Mini basurales y desagües: 80 puntos&lt;&#x2F;li&gt;
+&lt;li&gt;Estado de las calles: 9 puntos&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Finalmente, luego de consolidar, analizar y clasificar los datos, se produjo el siguiente &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;umap.hotosm.org&#x2F;en&#x2F;map&#x2F;mapa-del-barrio-esfuerzo-propio-asentamiento-villa_3111&quot;&gt;uMap&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;El mismo da cuenta de las principales variables de estudio y a partir de su análisis extraemos las conclusiones que enumeramos en el próximo apartado.&lt;&#x2F;p&gt;
+&lt;p&gt;Además se recolectaron imágenes a nivel de calle usando &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;panoramax.libre.net.ar&quot;&gt;Panoramax&lt;&#x2F;a&gt; por parte de Bastian Greshake Tzovaras.&lt;&#x2F;p&gt;
+&lt;div&gt;
+    &lt;iframe
+        width=&quot;100%&quot;
+        height=&quot;500px&quot;
+        src=&quot;https:&amp;#x2F;&amp;#x2F;explore.panoramax.fr&amp;#x2F;en&amp;#x2F;index?s=fp;s2;p238bd3b3-3127-4509-a131-4072b7c7e040;c141.15&amp;#x2F;0.00&amp;#x2F;30;m17&amp;#x2F;-33.771614&amp;#x2F;-61.959263;udefault&quot;
+        style=&quot;border: 1px solid #ddd; border-radius: 5px; margin: 5px 0; padding: 5px; background-color: white;&quot;
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen&gt;
+    &lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;analisis-de-los-datos&quot;&gt;Análisis de los datos&lt;&#x2F;h2&gt;
+&lt;p&gt;La mayor parte de los desagües se encuentran obstruidos o presentan cercanía con mini basurales. En estos casos el riesgo de anegamiento por la mala circulación y capacidad de evacuación de los mismos, generan riesgo de inundación y de basura por arrastre en caso de anegamiento.&lt;&#x2F;p&gt;
+&lt;p&gt;La zona de Villa Moisés presenta una alta concentración de vulnerabilidades asociadas a la ausencia o insuficiencia de infraestructura urbana básica. En el área relevada se observa una combinación de iluminación pública deficiente, alta presencia de microbasurales, baja disponibilidad de contenedores para residuos y escasa presencia de arbolado público. La superposición espacial de estas variables sugiere un patrón de acumulación de déficits urbanos que podría incrementar la exposición de la población a distintos riesgos ambientales y afectar la calidad del espacio público.&lt;&#x2F;p&gt;
+&lt;p&gt;En comparación con Villa Moisés, la situación del Esfuerzo Propio resulta ventajosa, ya que allí se observa una mayor concentración de bienes y servicios públicos en comparación.&lt;&#x2F;p&gt;
+&lt;p&gt;Sería interesante correlacionar la presencia de mini basurales con servicios de recolección de residuos. La concentración de desventajas y la menor provisión de servicios públicos dan cuenta no sólo de que se trata de un lugar de habitación reciente, sino también con acceso diferencial a bienes y servicios esenciales que deben ser garantizados por el Estado.&lt;&#x2F;p&gt;
+&lt;p&gt;En este punto el indicador de distribución de luminarias resulta particularmente ilustrativo y predictor de otras carencias de infraestructura.&lt;&#x2F;p&gt;
+&lt;p&gt;Sería interesante verificar si la distribución desigual de arbolado en la zona sur de la ciudad es indicador de desigualdad territorial con islotes de calor (como ocurre en Córdoba) y mayor riesgo para el bienestar de los habitantes durante olas de calor o si la cercanía con la zona rural opera como factor protector o si responde a un déficit de relevamiento.&lt;&#x2F;p&gt;
+&lt;p&gt;Las calles con mayor deterioro con Eva Perón y Marenghini. Particular esta última fue objeto de reparaciones por parte de los vecinos (con elementos de relleno, en especial de material de obra) que dificultaron aún más la circulación.
+Las zonas con presencia de árboles en calles Perón, Berti, Carelli y Pasaje Río V podría corresponderse con el plan de árboles entregados por Maná. Esto es una presunción que debería comprobarse.&lt;&#x2F;p&gt;
+&lt;p&gt;Se observa una correlación entre las zonas problemáticas (falta de luminarias, mal estado de las calles, mini basurales, problemas de desagües y zonas inundables) con los puntos relevados. La comunidad demuestra un gran conocimiento del barrio y es capaz de ayudarnos a navegar por él y a producir información útil para el abordaje de la problemática de interés.&lt;&#x2F;p&gt;
+&lt;p&gt;Se encontró una correspondencia entre las zonas identificadas como inundables y la presencia de desagües obstruidos. En estas áreas también hay una concurrencia de menor presencia de luminarias.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;conclusiones&quot;&gt;Conclusiones&lt;&#x2F;h2&gt;
+&lt;p&gt;El relevamiento realizado puso de manifiesto la importancia del conocimiento local para orientar tanto la definición de los problemas a relevar como la interpretación de los datos obtenidos. En este sentido, no resulta suficiente contar únicamente con profesionales especializados en sistemas de información geográfica o personas capacitadas en tareas de mapeo. Son los propios vecinos quienes conocen las dinámicas cotidianas del territorio, identifican los problemas que afectan su calidad de vida y pueden aportar información que difícilmente sería captada mediante otras metodologías. Por ello, su participación en las tareas de relevamiento debe constituir un componente central de este tipo de iniciativas.&lt;&#x2F;p&gt;
+&lt;p&gt;Asimismo, el proceso de mapeo se consolidó como una herramienta de participación y diálogo comunitario. Las personas del barrio que participaron del relevamiento comprendieron rápidamente el potencial de estas tareas para visibilizar problemáticas locales y generar evidencia útil para promover mejoras en las condiciones de vida del barrio. En varios casos, los participantes ya contaban con experiencia en procesos de diagnóstico participativo, lo que probablemente facilitó la apropiación de la metodología y la comprensión del valor estratégico de producir información georreferenciada.&lt;&#x2F;p&gt;
+&lt;p&gt;En este punto, la elección de herramientas que por diseño facilitan la participación local resulta crucial. Tanto aquellas que permiten interactuar con los mapas usando papel, que por ser una técnica que durante años se usó para poner en diálogo saberes locales (SketchMap Tool), como aquellas que por sus características se montan sobre tecnologías y conocimientos previamente adquiridos (ChatMap) resultan centrales para poder obtener resultados que incluyan diversas perspectivas y que además puedan favorecer la incidencia.
+Una etapa igualmente importante consiste en la devolución de los resultados a la comunidad y a las organizaciones que participaron del relevamiento.&lt;&#x2F;p&gt;
+&lt;p&gt;Compartir los datos y el informe final no solo constituye una práctica de devolución ética hacia quienes hicieron posible el trabajo, sino que también fortalece las capacidades locales para utilizar esa información como insumo para el diseño, la demanda y el seguimiento de políticas públicas. En este aspecto, resulta especialmente destacable el papel de las organizaciones con arraigo territorial, particularmente Maná, cuya capacidad de sostener iniciativas a lo largo del tiempo y de movilizar a la comunidad constituye un activo fundamental para impulsar procesos de transformación local.&lt;&#x2F;p&gt;
+&lt;p&gt;En este punto, sería interesante poder generar instancias similares en otras áreas de la ciudad con riesgo de anegamiento. Y alertar a defensa civil sobre las capacidades de las herramientas de mapeo ante emergencias y catástrofes. Así mismo, hacer llegar al municipio los relevamientos vinculados a desagües obstruidos, luminarias y mini basurales, puede redundar en una reducción del riesgo ante eventos especialmente fuertes, más teniendo en cuenta que la ciudad de Venado Tuerto forma parte de una cuenca que a menudo se caracteriza por la recepción de lluvias abundantes y arrastre de áreas aledañas. Resultando las poblaciones y viviendas de barrios populares especialmente afectadas durante estos fenómenos.&lt;&#x2F;p&gt;
+&lt;p&gt;Finalmente, el relevamiento también permitió observar que las capacidades de organización y participación comunitaria se encuentran estrechamente vinculadas con la presencia sostenida del Estado en el territorio. Las áreas que históricamente han recibido infraestructura, equipamiento urbano y servicios públicos presentan, en términos generales, mejores condiciones materiales, mayores niveles de organización colectiva y una mayor capacidad para participar en este tipo de iniciativas. En contraste, los sectores de ocupación más reciente de Villa Moisés evidencian mayores niveles de vulnerabilidad y una inserción más precaria en las redes comunitarias existentes. Incluso cuando muchas de las familias que allí residen mantienen vínculos de parentesco con habitantes históricos del barrio Esfuerzo Propio, persisten procesos de diferenciación territorial y estigmatización que dificultan su integración plena a la vida comunitaria. Estas observaciones refuerzan la necesidad de comprender las desigualdades urbanas no solo como déficits de infraestructura, sino también como expresiones de trayectorias diferenciadas de presencia estatal, reconocimiento social y acceso a recursos colectivos.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="es">
+        <title>Configuración de la primera instancia de Panoramax para Argentina</title>
+        <published>2026-05-18T00:00:00+00:00</published>
+        <updated>2026-05-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://choique.org/panoramax-instance/"/>
+        <id>https://choique.org/panoramax-instance/</id>
+        
+        <content type="html" xml:base="https://choique.org/panoramax-instance/">&lt;p&gt;&lt;strong&gt;Una primera versión de este articulo &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.openstreetmap.org&#x2F;user&#x2F;Bastian%20Greshake%20Tzovaras&#x2F;diary&#x2F;408687&quot;&gt;fue publicado en OSM&lt;&#x2F;a&gt;.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;An &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;choique.org&#x2F;en&#x2F;panoramax-instance&#x2F;&quot;&gt;English version is available too&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Panoramax es un sistema de código abierto para crear un repositorio común de imágenes a nivel de calle, ofreciendo así una alternativa con licencia abierta a Google Street View, etc.
+A diferencia de otras alternativas que licencian las imágenes de forma abierta, todo el software es libre y de código abierto.
+Además, se basa en la idea de crear una federación de servidores o instancias de Panoramax, similar al Fediverso de Mastodon, PeerTube, Lemmy, etc.&lt;&#x2F;p&gt;
+&lt;p&gt;Desde &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;tzovar.as&#x2F;open-source-streetview&#x2F;&quot;&gt;la primera vez que publiqué sobre Panoramax&lt;&#x2F;a&gt;, la federación ha crecido considerablemente, superando las 10 instancias.
+Pero, cal igual que (lamentablemente) en la mayoría de los sistemas federados, todavía existe una fuerte centralización en cuanto al uso.
+Las instancias del capítulo francés de OpenStreetMap (OSM FR) y del Instituto Geográfico Nacional de Francia &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;panoramax.fr&#x2F;stats&quot;&gt;reúnen alrededor del 97 % de todas las imágenes hasta la fecha&lt;&#x2F;a&gt;.
+En el caso de la instancia de OSM FR, esto se debe en parte a que, hasta ahora, era la única instancia grande que permitía subir imágenes de cualquier lugar del mundo, en lugar de restringir geográficamente las subidas a una región o país.&lt;&#x2F;p&gt;
+&lt;p&gt;Para Panoramax, esta centralización no solo es problemática en lo que respecta a la capacidad de trabajar en contextos locales o la resiliencia de la federación, sino también para la sostenibilidad de esas instancias individuales por motivos de almacenamiento:
+Almacenar millones de imágenes a nivel de calle de alta resolución consume muchísimo espacio.
+En el caso de la instancia de OSM FR, los aproximadamente 51 millones de imágenes ocupan 120 TB para las imágenes originales y otros 66 TB para las imágenes derivadas necesarias para su visualización y distribución eficientes.&lt;&#x2F;p&gt;
+&lt;p&gt;Por ello, hace un par de semanas, Christian Quest publicó en el foro de la comunidad de OSM que &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;community.openstreetmap.org&#x2F;t&#x2F;osm-fr-panoramax-server-only-for-testing-if-outside-of-france&#x2F;143428&quot;&gt;la instancia de OSM FR se estaba quedando sin espacio&lt;&#x2F;a&gt;.
+También comentó que aproximadamente la mitad de esas imágenes provienen de fuera de Francia, lo que contribuye a que la situación actual no sea sostenible a largo plazo.
+Por esta razón, es muy probable que no sea posible subir imágenes desde el extranjero en el futuro.
+Como usuario que subió bastantes imágenes desde Argentina, sin duda contribuí a este problema, lo que implicó acelerar la puesta en marcha de una instancia local.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;panoramax-en-el-contexto-argentino&quot;&gt;Panoramax en el contexto argentino&lt;&#x2F;h2&gt;
+&lt;p&gt;No contar con una instancia local no se debió necesariamente a falta de intentos, sino a varios factores que representan barreras adicionales:
+El primero, y quizás el más importante, es el elevado costo del hardware.
+La electrónica en general es extremadamente cara en Argentina.
+No solo en términos relativos, comparado con los salarios locales, sino también en términos absolutos, incluso sin tener en cuenta el aumento de precios derivado de la IA, debido a los aranceles y tasas de importación.
+Esto significa que el hardware suele utilizarse hasta que se avería, lo que implica que el mercado de hardware usado no es muy amplio y que, además, los precios del hardware usado aquí suelen ser más altos que los que se pagarían por uno nuevo en lugares como la UE o Estados Unidos.
+Por lo tanto, las posibilidades de obtener donaciones de hardware, &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;forum.geocommuns.fr&#x2F;t&#x2F;deploying-a-panoramax-instance-the-pre-flight-check-list&#x2F;1892&quot;&gt;con las que otros lugares sí tienen suerte&lt;&#x2F;a&gt; para un proyecto de este tipo, son bastante escasas, especialmente si se parte de cero.&lt;&#x2F;p&gt;
+&lt;p&gt;Al mismo tiempo, las instituciones públicas como universidades o municipios, que en otros lugares podrían ser socios naturales para una iniciativa así, aunque potencialmente interesadas, carecen de los recursos necesarios para ayudar:
+Todas están sufriendo pérdidas económicas debido al recorte intencional de fondos del gobierno nacional a todos los servicios públicos.
+Si lee algo de alemán (o está dispuesto a usar la traducción automática), &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;amerika21.de&#x2F;autor&#x2F;bastian-greshake-tzovaras&quot;&gt;puede leer mi reportaje sobre este tema en Amerika21&lt;&#x2F;a&gt;; de lo contrario, cualquier medio de comunicación con cobertura internacional debería ser útil.&lt;&#x2F;p&gt;
+&lt;p&gt;La otra alternativa para poner en marcha una instancia de Panoramax, que parece ser utilizada por otras instancias más pequeñas, es el autoalojamiento en casa.
+Pero, más allá de la disponibilidad de hardware, incluso eso puede resultar complicado debido a las limitaciones de infraestructura.
+Sobre todo en entornos rurales como el mío:
+Además de los cortes de luz habituales, que un SAI (sistema de alimentación ininterrumpida) podría mitigar, los proveedores locales de internet suelen ofrecer velocidades muy bajas.
+Por ejemplo, en el pueblo donde vivo la cooperativa local —que gestiona los servicios públicos, incluidas las conexiones a internet— ofrece velocidades aDSL lentas, y se prevé que la fibra óptica llegue a &lt;em&gt;algunos barrios&lt;&#x2F;em&gt; en algún momento del próximo año.
+Eso significaría que usar una instancia de Panoramax sería como intentar ver imágenes HD a través de una pajita.&lt;&#x2F;p&gt;
+&lt;p&gt;Todos estos factores llevaron a que —a pesar de intentarlo intermitentemente desde finales de 2024, con distinta intensidad—, hasta ahora no se había logrado crear ninguna instancia local.
+Pero con el cambio a la instancia de OSM FR, que generó la urgencia necesaria, era hora de dejar de buscar soluciones &quot;perfectas&quot; y, en cambio, enfocarnos en crear &lt;em&gt;algo&lt;&#x2F;em&gt;.
+Y aunque Argentina sea un país enorme, ¿quizás no se necesiten cientos de terabytes para empezar?
+Por un lado, la red de carreteras actual parece ser sólo &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;List_of_countries_by_road_network_size&quot;&gt;aproximadamente una cuarta parte de la de Francia&lt;&#x2F;a&gt;.
+Y además, el número de colaboradores locales que suben imágenes, al menos según las estimaciones de la instancia de OSM FR, es bastante manejable.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;eleccion-de-configuracion-y-creacion-de-una-instancia&quot;&gt;Elección de configuración y creación de una instancia&lt;&#x2F;h2&gt;
+&lt;p&gt;En base a esto, me pregunté si no sería posible alquilar un servidor dedicado &lt;em&gt;pequeño&lt;&#x2F;em&gt; en algún lugar, simplemente para empezar.
+Dados los costos de hardware (ver arriba), debía ser un proveedor de alojamiento fuera del país, ya que las opciones locales también son bastante caras.
+Lo cual no es ideal en cuanto a latencia, pero por el momento no se puede ser exigente.
+Así que comencé a intercambiar ideas de forma más concreta con Daniel y Marcos sobre las opciones y cómo podríamos configurar una instancia.&lt;&#x2F;p&gt;
+&lt;p&gt;Para aprovechar su amplia experiencia de primera mano con el alojamiento de Panoramax, contacté con Christian Quest, quien me indicó que el proveedor francés &lt;em&gt;OVH&lt;&#x2F;em&gt; ofrece un servidor dedicado a un precio bastante asequible de 26,60 USD al mes, que incluye cuatro discos duros de 4 TB configurables en RAID por software y un SSD de 500 GB para almacenar la base de datos, etc.
+En una configuración RAID 5, esto proporcionaría 12 TB de almacenamiento útil para las imágenes (o 16 TB, pagando un poco más por la opción de cuatro discos de 6 TB), y el resto de las especificaciones serían suficientes para ejecutar una instancia.
+Al menos, siempre que se utilice el servicio de &lt;em&gt;blurring&lt;&#x2F;em&gt; que OSM FR ofrece como servicio, ya que el tipo de máquina sugerido no cuenta con una GPU dedicada.
+En la configuración de 16 TB, esto debería ser suficiente para almacenar alrededor de 4 millones de imágenes, suponiendo la misma combinación de fuentes y calidades de imagen que almacena OSM FR.&lt;&#x2F;p&gt;
+&lt;p&gt;Según nuestros cálculos eso duraría al menos un año, ya que hasta ahora se han subido alrededor de 830.000 imágenes tomadas en Argentina a la instancia de OSM FR en los últimos dos años.
+Así que decidimos probarlo para empezar y, con suerte, crear una &lt;em&gt;demo&lt;&#x2F;em&gt; convincente.
+Esto, a su vez, esperamos que nos ayude a entablar conversaciones más específicas para obtener soporte en el futuro.&lt;&#x2F;p&gt;
+&lt;p&gt;Una vez decidido el tipo de alojamiento, la configuración inicial no fue demasiado complicada:
+El equipo de Panoramax creó una &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;docs.panoramax.fr&#x2F;backend&#x2F;install&#x2F;tutorials&#x2F;running_docker_osm_auth&#x2F;&quot;&gt;excelente documentación sobre el despliegue con &lt;code&gt;docker compose&lt;&#x2F;code&gt;&lt;&#x2F;a&gt; y el uso de OSM a través de OAuth como proveedor de inicio de sesión.
+Y nos beneficiamos aún más del &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.openstreetmap.org&#x2F;user&#x2F;Matija%20Nalis&#x2F;diary&#x2F;408636&quot;&gt;detallado informe de Matija Nalis&lt;&#x2F;a&gt;, quien recientemente había desplegado la instancia Panoramax de OSM Croacia, lo que nos permitió completar el 99% del despliegue (para la única excepción, consulte los detalles a continuación).&lt;&#x2F;p&gt;
+&lt;p&gt;Así pues, desplegamos &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;panoramax.libre.net.ar&quot;&gt;nuestra instancia Panoramax en&lt;&#x2F;a&gt;.
+Hasta donde sabemos, esta no solo es la primera instancia en Latinoamérica, ¡sino en todo el continente americano! &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;
+Actualmente está configurada para aceptar imágenes tomadas en Argentina y Uruguay, pero si alguien en países vecinos necesita espacio, podemos ver qué podemos hacer; ¡contáctenos!&lt;&#x2F;p&gt;
+&lt;p&gt;En general, fue mucho más fácil e incluso más económico de lo que esperaba.
+Espero que esto motive a otros a intentarlo también. Panoramax sólo puede funcionar a mayor escala si más personas implementan instancias locales.
+Quizás no a nivel nacional, pero sí a nivel regional o municipal, lo que reduciría las necesidades de almacenamiento y, por lo tanto, los costos.&lt;&#x2F;p&gt;
+&lt;p&gt;En cuanto al esfuerzo administrativo y la experiencia necesaria:
+Cada vez hay más personas con experiencia en la administración de servidores Panoramax, y por lo que he visto, todos están encantados de ayudar.
+Dicho esto, contar con un pequeño equipo dispuesto a colaborar es genial, tanto para obtener segundas opiniones y facilitar la gestión del tráfico, como para convertirlo en un esfuerzo colectivo.
+En nuestra pequeña instancia, esto incluye no solo a Marcos y Dani, sino también a &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.openstreetmap.org&#x2F;user&#x2F;lbellomo&quot;&gt;Lucas&lt;&#x2F;a&gt;, quien se ofreció a compartir su experiencia en administración de servidores al enterarse de nuestra idea.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;apendice-configuracion-del-raid-por-software&quot;&gt;Apéndice: Configuración del RAID por software&lt;&#x2F;h2&gt;
+&lt;p&gt;Lo único que faltaba en la descripción detallada de la instancia OSM-HR era cómo configurar el RAID por software.
+La configuración del servidor &lt;em&gt;OVH&lt;&#x2F;em&gt; viene sin ningún disco duro configurado, ya que solo formatea la unidad SSD.
+Pero, por suerte, no fue muy difícil &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;hetmanrecovery.com&#x2F;recovery_news&#x2F;how-to-create-software-raid-5-with-lvm.htm&quot;&gt;investigar&lt;&#x2F;a&gt;.
+Para quienes deseen reproducir este proceso, los pasos se encuentran a continuación.&lt;&#x2F;p&gt;
+&lt;p&gt;Para configurar los 4 discos duros como un RAID 5, también utilizamos LVM, de forma similar a la descripción para OSM-HR.
+Para preparar los discos duros, primero creamos los volúmenes físicos:&lt;&#x2F;p&gt;
+&lt;pre&gt;&lt;code&gt;pvcreate &#x2F;dev&#x2F;sda
+pvcreate &#x2F;dev&#x2F;sdb
+pvcreate &#x2F;dev&#x2F;sdc
+pvcreate &#x2F;dev&#x2F;sdd
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Luego creamos el grupo de volúmenes &lt;code&gt;vg1&lt;&#x2F;code&gt; ejecutando &lt;code&gt;vgcreate vg1 &#x2F;dev&#x2F;sda &#x2F;dev&#x2F;sdb &#x2F;dev&#x2F;sdc &#x2F;dev&#x2F;sdd&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Finalmente, creamos el volumen lógico (LV): &lt;code&gt;lvcreate -n panoramax-photos --type raid5 -i 3 -l 100%VG vg1&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Los parámetros son:&lt;&#x2F;p&gt;
+&lt;pre&gt;&lt;code&gt;
+-n: nombre del volumen
+--type raid5: tipo de RAID
+-i: usar 3 dispositivos de los 4 (para redundancia de un solo disco)
+-l 100%VG: usar el 100% del grupo de volúmenes
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Como resultado, Obtenido:&lt;&#x2F;p&gt;
+&lt;pre&gt;&lt;code&gt;root@panoramax-ar:~# lvscan
+  ACTIVE            &amp;#39;&#x2F;dev&#x2F;vg1&#x2F;panoramax-photos&amp;#39; [16.37 TiB] inherit
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;A partir de ahí, &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.openstreetmap.org&#x2F;user&#x2F;Matija%20Nalis&#x2F;diary&#x2F;408636&quot;&gt;el resto de las instrucciones de OSM HR&lt;&#x2F;a&gt; te llevarán allí.&lt;&#x2F;p&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;Al menos la primera instancia pública visible y accesible que busca federarse; por supuesto, podría haber instancias alojadas de forma privada.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+</feed>
