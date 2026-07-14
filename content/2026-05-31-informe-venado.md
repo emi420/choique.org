@@ -47,6 +47,11 @@ Finalmente, luego de consolidar, analizar y clasificar los datos, se produjo el 
 
 El mismo da cuenta de las principales variables de estudio y a partir de su análisis extraemos las conclusiones que enumeramos en el próximo apartado.
 
+Además se recolectaron imágenes a nivel de calle usando [Panoramax](https://panoramax.libre.net.ar) por parte de Bastian Greshake Tzovaras.
+
+{{ iframe(link="https://explore.panoramax.fr/en/index?s=fp;s2;p238bd3b3-3127-4509-a131-4072b7c7e040;c141.15/0.00/30;m17/-33.771614/-61.959263;udefault") }}
+
+
 ## Análisis de los datos
 
 La mayor parte de los desagües se encuentran obstruidos o presentan cercanía con mini basurales. En estos casos el riesgo de anegamiento por la mala circulación y capacidad de evacuación de los mismos, generan riesgo de inundación y de basura por arrastre en caso de anegamiento.
