@@ -1,5 +1,5 @@
 ---
-title: Informe de actividad de mapeo en campo para prevención de inundaciones: Esfuerzo Propio y Villa Moisés
+title: "Informe de actividad de mapeo en campo para prevención de inundaciones: Esfuerzo Propio y Villa Moisés"
 description: "Este informe preliminar reúne las principales observaciones y análisis surgidos a partir de las tareas de mapeo en campo. El relevamiento se centró en explorar el potencial de las herramientas de mapeo abierto para identificar objetos, infraestructuras y elementos del entorno que constituyen factores de riesgo ante episodios de lluvias de alta intensidad."
 extra:
   author: Silvina Meritano
@@ -7,7 +7,7 @@ date: 2026-05-31
 taxonomies:
   tags: ["openstreetmap", "ChatMap", "SketchMap Tool", "mapeo participativo", "taller venado"]
 ---
-**Este post fue previamente publicado [en Diario de OSM de Silvi715] (https://www.openstreetmap.org/user/Silvi715/diary/408944)** 
+**Este post fue previamente publicado [en Diario de OSM de Silvi715](https://www.openstreetmap.org/user/Silvi715/diary/408944)** 
 
 ## Introducción
 
@@ -33,8 +33,7 @@ La herramienta seleccionada para recolectar los datos fueron SketchMap Tool y Ch
 
 Estas áreas identificadas por las vecinas del barrio fueron las prioritarias para efectuar los recorridos de los grupos de mapeo en campo y para determinar los puntos a recolectar. Los que se alinearon, por un lado con variables de interés en caso de inundaciones y con las necesidades priorizadas por la comunidad local. 
 
-![Captura de pantalla de relevamiento realizado con ChatMap, 29/05/2026
-](https://live.staticflickr.com/65535/55359093159_d464f0d2f2_b.jpg)
+![Captura de pantalla de relevamiento realizado con ChatMap, 29/05/2026](https://live.staticflickr.com/65535/55359093159_d464f0d2f2_b.jpg)
 
 En este link encontrarán los datos recolectado con ChatMap con sus respectivas etiquetas: [ChatMap](https://chatmap.hotosm.org/#map/1622e96d-f1ae-4608-8d50-7e038fc67c30)
 
